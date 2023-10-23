@@ -1,5 +1,6 @@
-print("Hello World!")
+import math
 
-def fuggvenyHozzadva(szoveg):
-    return szoveg
+def radToDegree(x):
+    return x*(180/math.pi)
 
+print(radToDegree(2))
